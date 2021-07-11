@@ -1,0 +1,44 @@
+#spring:
+#  application:
+#    name: orange-coupon-eureka
+#  profiles: server1
+#server:
+#  port: 8001
+#eureka:
+#  instance:
+#    prefer-ip-address: false
+#    hostname: server1
+#  client:
+#    service-url:
+#      defaultZone: http://server2:8002/eureka,http://server3:8003/eureka
+#
+#---
+#spring:
+#  application:
+#    name: orange-coupon-eureka
+#  profiles: server2
+#server:
+#  port: 8002
+#eureka:
+#  instance:
+#    prefer-ip-address: false
+#    hostname: server2
+#  client:
+#    service-url:
+#      defaultZone: http://server1:8001/eureka,http://server3:8003/eureka
+#
+#
+#---
+#spring:
+#  application:
+#    name: orange-coupon-eureka
+#  profiles: server3
+#server:
+#  port: 8003
+#eureka:
+#  instance:
+#    prefer-ip-address: false
+#    hostname: server3
+#  client:
+#    service-url:
+#      defaultZone: http://server1:8001/eureka,http://server2:8002/eureka
