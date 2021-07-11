@@ -7,6 +7,7 @@
     <version>0.1.0</version>
     <modules>
         <module>orange-coupon-eureka</module>
+        <module>orange-coupon-gateway</module>
     </modules>
     <name>orange-server</name>
     <packaging>pom</packaging>
@@ -25,8 +26,8 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.1.15.RELEASE</spring-boot.version>

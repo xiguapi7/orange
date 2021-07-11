@@ -1,0 +1,9 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: orange-coupon-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:7000/eureka/
