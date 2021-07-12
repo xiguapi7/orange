@@ -8,6 +8,7 @@
     <modules>
         <module>orange-coupon-eureka</module>
         <module>orange-coupon-gateway</module>
+        <module>orange-coupon-service</module>
     </modules>
     <name>orange-server</name>
     <packaging>pom</packaging>
